@@ -13,3 +13,15 @@
   }
 
 
+  .search-fields {
+      text-align: center;
+  }
+
+
+  #loader {
+      text-align: center;
+  }
+
+  #the-slide-show {
+      margin:auto;
+  }
