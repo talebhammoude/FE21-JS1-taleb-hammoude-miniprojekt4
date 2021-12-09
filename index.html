@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Miniprojekt 4</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <div>
+
+      <label for="searchpic">Sök:</label>
+      <input type="search" id="searchpic" />
+
+
+      <label for="size">Välj storlek på bilderna:</label>
+      <select name="size-options" id="size">
+        <option value="s">Small</option>
+        <option value="m">Medium</option>
+      </select>
+
+
+      <label for="amount">Hur många bilder?</label>
+      <select name="amount-options" id="amount">
+        <option value="5">5</option>
+        <option value="10">10</option>
+      </select>
+
+      
+      <input type="submit" id="searchBtn" value="SÖK" />
+    </div>
+
+
+    <div id="pics">
+
+    </div>
+
+
+
+    <script src="app.js"></script>
+  </body>
+</html>

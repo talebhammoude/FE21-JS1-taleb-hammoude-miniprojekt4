@@ -1,0 +1,13 @@
+#pics {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    background-color: #dac28e;
+    padding: 10px;
+  }
+  
+
+
+  #pics > img {
+    margin: auto;
+  }
