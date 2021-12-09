@@ -35,6 +35,9 @@ async function getData () {
 function search () {
     searchButton.addEventListener("click", ()=> {
        
+        const theSlideShow = document.querySelector("#the-slide-show");
+        theSlideShow.setAttribute("style", "display: block");
+
         loader();
         console.log(searchField.value);
         getTheData(activateFirstPic);
@@ -50,7 +53,7 @@ function getTheData (callback){
 
     getData().then((data)=>{
         //för att lista fram fler bilder.
-        
+
         hideLoader();
         for(let i= 0; i< picAmount.value; i++) {
             manageTheData(data.photos.photo[i]);
