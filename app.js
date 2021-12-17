@@ -1,5 +1,3 @@
-
-
 const KEY = '313698e5d41cebecef7dd7a6fb93043d';
 
 const searchField = document.querySelector("#searchpic");
